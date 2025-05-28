@@ -1,0 +1,172 @@
+.product-display {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  margin: 0px 140px;
+  gap: 10px;
+}
+
+.product-display-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 80vh;
+}
+
+.left-images {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.left-images img {
+  height: 133px;
+}
+
+.product-display-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-display-main img {
+  height: 562px;
+}
+
+.product-display-right {
+  margin: 0px 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-display-right h2 {
+
+  font-size: 30px;
+  font-weight: 700;
+  color: #3d3d3d;
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: #1c1c1c;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.product-display-right .item-prices {
+  margin: 10px 0px;
+}
+
+.size {
+  display: flex;
+  margin: 30px 0px;
+  gap: 20px;
+}
+
+.size div {
+  background: #fbfbfb;
+  border: 1px solid #ebebeb;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.sizes h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sizes {
+  margin: 10px 0px;
+}
+
+.product-display-right-category {
+  margin-top: 30px 0px;
+  font-size: 18px;
+}
+.product-display-right-category span {
+  font-weight: 600;
+}
+
+.product-display-right button {
+  background-color: #ff4141;
+  margin-bottom: 30px;
+  width: 200px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  height: 50px;
+}
+
+@media (max-width: 500px) {
+
+  .product-display {
+    margin: 0px 20px;
+    height: auto;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .product-display-left {
+    height: auto;
+    gap: 10px;
+    /* flex-direction: column; */
+    /* margin: auto; */
+    /* width: 100%; */
+  }
+
+  .left-images {
+    display: flex;
+    /* flex-direction: row; */
+    gap: 5px;
+  }
+
+  .product-display-right {
+    margin: 0px 10px;
+  }
+
+  .product-display-right h2 {
+    font-size: 25px;
+  }
+
+  .left-images {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.left-images img {
+  height: 88px;
+}
+
+
+.product-display-main img {
+  height: 380px;
+  width: 260px;
+}
+
+.size div {
+  padding: 5px 10px;
+}
+
+.product-display-right button {
+  background-color: #ff4141;
+  margin-bottom: 30px;
+  width: 200px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  height: 50px;
+}
+
+
+}

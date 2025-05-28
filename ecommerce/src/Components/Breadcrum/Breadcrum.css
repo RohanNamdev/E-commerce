@@ -1,0 +1,15 @@
+.breadcrum{
+    font-weight: 600;
+    color: #5e5e5e;
+    font-size: 21px;
+    font-weight: 500;
+    margin: 40px 140px;
+    text-transform: capitalize;
+}
+
+@media (max-width:500px) {
+    .breadcrum{
+        margin: 40px 20px;
+        font-size: 15px;
+    }
+}
