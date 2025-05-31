@@ -111,9 +111,9 @@
   }
 
   .cart-login > button {
-    width: 80px;
-    padding: 8px 15px;
-    font-size: 15px;
+    width: 70px;
+    padding: 8px 12px;
+    font-size: 12px;
   }
   .nav_dropdown {
     display: flex;
@@ -129,5 +129,11 @@
 
   .open {
     transform: rotate(90deg);
+  }
+
+  .cart-login-btn{
+    font-size: 15px;
+    padding: 8px 12px;
+    width: 80px;
   }
 }
