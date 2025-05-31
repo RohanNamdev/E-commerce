@@ -63,6 +63,10 @@
   align-items: center;
 }
 
+.hero-right img{
+  width: 450px;
+}
+
 @media (max-width: 500px) {
   .hero {
     flex-direction: column;
