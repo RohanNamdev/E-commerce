@@ -22,7 +22,7 @@ const Navbar = () => {
     <div className="Navbar">
       <div className="logo">
         <img src={logo} alt="logo" />
-        <p>Commerce</p>
+        <p>Quickmerce</p>
       </div>
       <img
         className="nav_dropdown"
